@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Poppins:wght@200;400;500;600;700;900&family=Raleway&family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+body {
+    font-weight: 300;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    font-family: "poppins", sans-serif;
+    background: #aaa;
+   
+  }
+.scrollsection{
+    margin: 20px 0px 20px 20px;
+}
+
+.slick-slide {
+    width: 90%;
+    margin: 0 50px;
+  
+}
+
+.slick-dots {
+    list-style-type: none;
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.slick-dots li {
+    display: inline-block;
+}
+
+.slick-dots button {
+    display: inline-block;
+    font-size: 0px;
+    color: #ccc;
+    background-color: #ccc;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 0;
+    margin-left: 6px;
+    margin-right: 6px;
+    outline: none;
+    cursor: pointer;
+}
+
+.slick-active button {
+    background-color: #aaa;
+}
+
+.slider{
+    margin: 0rem;
+}
+
+/* #teamsCard {
+    margin: 1rem 3rem;
+    width: 22rem;
+    height: 10rem;
+    background-color: linear-gradient rgb(200,20,150);
+   
+  }
+.cardItem{
+        border-radius: 1rem;
+        -webkit-border-radius: 1rem;
+        -moz-border-radius: 1rem;
+        -ms-border-radius: 1rem;
+        -o-border-radius: 1rem;
+        overflow: hidden;
+        box-shadow: 0 4px 21px -12px rgb(0, 0, 0, 0.79);
+        margin: 2rem 0;
+}
+.teamName a{
+    text-decoration: none;
+    color: black;
+}
+
+.teamName a:hover{
+    color: black;
+    font-size: large;
+}
+.teamIcon img {
+    width: 100%;
+    
+  }
+
+  .teamName {
+    padding: 1.5rem 0.5rem;
+  }
+  
+  .teamName h3 {
+    font-size: 1.4rem;
+  }
+  #btn1{
+      align-items: center;
+  } */
+
+  .team-contents{
+      box-sizing: border-box;
+    margin-right: 2rem;
+    margin-left: 4rem;
+    width:calc(25% - 1rem);
+    display: inline-block;
+    margin-top: 5rem;
+    box-shadow: 1rem solid gray;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+.team-icon img{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 0.02rem;
+    align-items: center;
+
+}
+
+.team-name{
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    padding-right: 5rem;
+}
+
+.right-side{
+    display: flex;
+}
+
+.right-side input{
+    width: 7rem;
+    height: 2rem;
+}
+
+/* .create-player{
+ display: ;
+}
+
+.create-team{
+ display: none;
+} */
+
+#teamBox ,
+    #playerBox  {
+    text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.1rem;
+  padding: 0.75rem 0;
+  display: block;
+  width: 9.5rem;
+  margin: 1rem auto;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+}
+
+
+
+/* #closeBtn{
+        position: absolute;
+        color: black;
+        right: 2rem;
+        top: 2rem;
+        font-size: 1.8rem;
+        background: #fff;
+        border: none;
+        width: 2.2rem;
+        height: 2.2rem;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0.9; 
+} */
+
+#btn-add-player{
+    border-style: none;
+   font-size: 1rem;
+   font-weight: 500;
+   text-transform: capitalize;
+    color: black;
+    background: #dd0004;
+    
+}
+
+.team-contents{
+   background: #9ACD32;
+   width:calc(25% - 1rem);
+   padding: 0.2rem;
+   margin:1rem ;
+}

@@ -1,0 +1,68 @@
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,900);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+body {
+    font-weight: 300;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    font-family: "poppins", sans-serif;
+    background: #ADD8E6;
+   
+  }
+.team-details{
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    
+}
+/* grid animation */
+ 
+.card-container {
+    margin: 5rem auto;
+    text-align: center;
+  }
+  
+.playerCards {
+    background: #ffffff;
+    display: inline-block;
+    position: relative;
+    /* z-index: 1; */
+
+  }
+
+  .playerCards:hover{
+      font-size: large;
+      background: #E9967A;
+  }
+img{
+      width: 100%;
+      height: 15em;
+    }
+    
+ .ply-name{
+    padding: 0.5rem;
+    
+ }  
+
+.card-down-info{
+    padding: 0.5rem;
+    text-align: left;
+}
+  
+/* grid animation */
+
+.team-information{
+    font-size: 1.5rem;
+    margin-left: 2.5rem;
+    margin-right: 0.5rem;
+}
+
+.playerDetail{
+    border-style: none;
+    
+}

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL-Web</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./player.html">
+    <link rel="stylesheet" href="./details.html">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-success">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="https://www.iplt20.com/assets/images/ipl-logo-new-old.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-1 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html"><b>Home</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html"><b>Matches</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html"><b>Teams</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html"><b>ScoreBoard</b></a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> 
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Fantasy</a></li>
+                      <li><a class="dropdown-item" href="#">News</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <div class="right-side">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light bg-dark" type="submit" id="teamBox">Create Team</button>
+                    <button class="btn btn-outline-light bg-dark" onclick="myFunction()" type="submit" id="playerBox">Create Player</button>
+                </div>
+                 
+              
+              </div>
+            </div>
+          </nav>
+        <!-- <div class="headertop">
+            <div class="headtag">
+                <img src="https://www.iplt20.com/assets/images/ipl-logo-new-old.png" alt="">
+                <a href="#">Home</a>
+                <a href="#">Matches</a>
+                <a href="#">ScoreBoard</a>
+                <a href="#">Teams</a>
+                <a href="#">H</a>
+
+            </div>
+        </div> -->
+    </header>
+
+    <section class="slider">
+        <div class="scrollsection">
+           <img class="imgscroll" src="./csk.jpeg" style="width: 300px; height: 400px;" />
+          <img class="imgscroll" src="./Mumbai Indians.jpg"style="width: 300px; height: 400px;" />
+          <img class="imgscroll" src="./RCB.jpg" style="width: 300px; height: 400px;"/>
+          <img class="imgscroll" src="./Deccon chargers.jpg"style="width: 300px; height: 400px;" />
+        </div>
+      </section>
+
+    <!-- <main>
+        <div class="teamCard">
+            <div class="card m-5" style="width: 18rem;">
+                
+                <div class="card-body">
+                  <h5 class="card-title">Chennai Super Kings</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-success">Team details</a>
+                </div>
+        </div>
+    </main> -->
+
+    
+     
+<main>
+    <div class="team-contents">
+        <div class="team-icon">
+            <a href="./details.html"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTM95XYd-UUKpfx_0nzlgv8X_q01rjYwGptA&usqp=CAU" style="width: 15rem;height: 10rem;" alt=""></a>
+        </div>
+        <div class="team-name">
+            <h3>KKR</h3>
+        </div>
+    </div>
+    <div class="team-contents">
+        <div class="team-icon">
+            <a href="./details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxCbq-GUrOoW58VNuyHoEQ3bHwkZAcDdQvIg&usqp=CAU" style="width: 15rem;height: 10rem;" alt=""></a>
+        </div>
+        <div class="team-name">
+            <h3>Sun Rises</h3>
+        </div>
+    </div>
+    <div class="team-contents">
+        <div class="team-icon">
+            <a href="./details.html"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHIU75T7qyNXw6wxC_xIaF9Pc25X0sc3d3yw&usqp=CAU" style="width: 15rem;height: 10rem; "  alt=""></a>
+        </div>
+        <div class="team-name">
+            <h3>CSK</h3>
+        </div>
+    </div>
+    <div class="team-contents">
+        <div class="team-icon">
+            <a href="./details.html"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVdnLxfpPLL2mJhyQlb3iII6FU_76cT4H9_A&usqp=CAU" style="width: 15rem; height: 10rem;"  alt=""></a>
+        </div>
+        <div class="team-name">
+            <h3>RCB</h3>
+        </div>
+    </div>
+    <div class="team-contents">
+        <div class="team-icon">
+            <a href="./details.html"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDdKTjYh4maW-EoyT5LKQLGdrxk_4llsTypA&usqp=CAU" style="width: 15rem; height: 10rem;" alt=""></a>
+        </div>
+        <div class="team-name">
+            <h3>MI</h3>
+        </div>
+    </div>
+    <div class="team-contents">
+        <div class="team-icon">
+            <a href="./details.html"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS69fIFS1Wnbmxx5urs7Pbh-LWPC12cA7zovg&usqp=CAU" style="width: 15rem; height: 10rem;" alt=""></a>
+        </div>
+        <div class="team-name">
+            <h3>RR</h3>
+        </div>
+    </div>
+</main>
+<!-- create player data -->
+<form class="create-player" id="playerInfo">
+    <!-- <button type="button" class="close-btn" id="closeBtn"><i class="fas fa-times"></i></button> -->
+    <div class="create-player-wrapper">
+        <label >Name of the player</label>
+   <div>
+    <input type="text" name="text" id="namekey" placeholder="Enter player name">
+   </div><br>
+   <label >Image URL</label>
+   <div>
+    <input type="text" name="text" id="urlkey" placeholder= "Enter the URL">
+   </div><br>
+   <label >Team</label>
+   <div>
+    <input type="text" name="text" id="teamkey" placeholder= "Enter the Team name">
+   </div><br>
+   <label >Price</label>
+   <div>
+    <input type="text" name="text" id="pricekey" placeholder= "Enter the price">
+   </div><br>
+   <label >Role</label>
+   <div>
+    <input type="text" name="text" id="rolekey" placeholder= "Enter the role">
+   </div><br>
+   <label >Player Status</label>
+   <div>
+    <input type="text"  id="statuskey" name="text" placeholder= "Enter the player Status">
+   </div><br>
+ <br>
+    </div>
+<button onclick="myFunction()" id="btn-add-player">Add player</button>
+</form>
+
+<!-- create player data ends-->
+
+<!-- create team data -->
+<div class="">
+    <form class="create-team" id="teamInfo">
+        <!-- <button type="button" class="close-btn" id="close-btn"><i class="fas fa-times"></i></button> -->
+        <label >Name of the team</label>
+       <div>
+        <input type="text" name="text" id="teamNamekey" placeholder="Enter team name">
+       </div><br>
+       <label >Team Icon</label>
+       <div>
+        <input type="text" name="text" id="teamIconkey" placeholder= "Enter Icon URL">
+       </div><br>
+       <label >Players Count</label>
+       <div>
+        <input type="text" name="text" id="teamCountkey" placeholder= "Enter the Count">
+       </div><br>
+       <label >Top Batsman</label>
+       <div>
+        <input type="text" name="text" id="teamBatsmankey" placeholder= "Enter the Batsman Name">
+       </div><br>
+       <label >Championship Count</label>
+       <div>
+        <input type="text" name="text" id="teamchampCountkey" placeholder="Enter the count">
+       </div><br>
+     <br>
+    <button onclick="myFunction()" id="btn-add-team">Add team</button>
+    </form>
+</div>
+
+<!-- create team data -->
+
+
+
+<!-- Latest compiled JavaScript -->
+
+<script type="text/javascript">
+   
+    // let nameKey = document.getElementById('namekey').value;
+    //   let urlKey = document.getElementById('urlkey').value;
+    //   let teamKey = document.getElementById('teamkey').value;
+    //   let priceKey = document.getElementById('pricekey').value;
+    //   let roleKey = document.getElementById('rolekey').value;
+    //   let btnPlayer = document.getElementById('btn-add-player').value;
+    //   let playersDiv = document.getElementById('playerCard').value;
+      
+    
+    // = function(){
+    //       let playerData ={
+    //         
+    //       }
+          
+    //     localStorage.setItem('test',JSON.stringify(nameKey1))
+           
+    //      if (key && value){
+    //          localStorage.setItem(key.value);
+    //         //  location.reload();
+    //      }
+
+    //   };
+    
+</script>
+
+<script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./homepage.js"></script>
+</body>
+</html>

@@ -10,8 +10,12 @@ body {
     font-size: 1.05rem;
     line-height: 1.6;
     font-family: "poppins", sans-serif;
-    background: #ADD8E6;
-   
+    background: #000080;
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj7r3JPib7hAY8ISMy9lqLUDRa94WNA0KAoA&usqp=CAU');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; */
   }
 
 #playerpage{

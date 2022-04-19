@@ -486,34 +486,7 @@ var teamData =[
         });
       })
 
-       //scroll section ends//
-
-    //    data from local storage//
-    //    localStorage.setItem("teamData", JSON.stringify(data));
-    //    console.log('data');
-    // function teamPlayers(){
-    //     console.log(meal);
-    //     meal = meal[0];
-    //     let html = `
-    //     <h2 class="recipe-title">${meal.strMeal}</h2>
-    //                    <p class="recipe-category">${meal.strCategory}</p>
-    //                    <div class="recipe-instruct">
-    //                        <h3>Instructions:</h3>
-    //                        <p>
-    //                        "${meal.strInstructions}"
-    //                        </p>
-    //                    </div>
-    //                    <div class="recipe-meal-img">
-    //                        <img src="${meal.strMealThumb}" alt="food">
-    //                    </div>
-    //                    <div class="recipe-link">
-    //                        <a href="${meal.strYoutube}" target="_blank">Watch Video</a>
-    //                    </div>
-    //     `;
-     
-
-
-    //    data from local storage ends//
+      
 
        /// player data ///
        
@@ -583,13 +556,7 @@ var teamData =[
         localStorage
     }
 
-    // for (let i=0; i<localStorage.length; i++){
-    //     let key = localStorage.playerDetailsArr(i);
-    //     let value = localStorage.getItem(playerDetailsArr);
-    //     btnPlayer.innerHTML += '${key}: ${value}'
-
-    // }
-     //    player -box-wrapper //
+    
 
     //  team box-wrapper//
     let teamNameKey = document.getElementById('teamNamekey');

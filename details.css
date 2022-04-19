@@ -1,4 +1,5 @@
 
+
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,900);
 
 * {
@@ -12,6 +13,11 @@ body {
     line-height: 1.6;
     font-family: "poppins", sans-serif;
     background: #ADD8E6;
+    background-image: url('./IPL.jpeg');
+    width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
    
   }
 .team-details{
@@ -28,16 +34,17 @@ body {
   }
   
 .playerCards {
-    background: #ffffff;
+    background:#800080;
     display: inline-block;
     position: relative;
     /* z-index: 1; */
+    box-shadow: 1px solid gray;
 
   }
 
   .playerCards:hover{
       font-size: large;
-      background: #E9967A;
+      background: #FFFF00;
   }
 img{
       width: 100%;
@@ -65,4 +72,15 @@ img{
 .playerDetail{
     border-style: none;
     
+    
+}
+
+button{
+   background-color:#008080;
+   border-style: none;
+   font-size: 1rem;
+   padding: 0.5rem;
+   font-weight: 600;
+   margin-bottom: 0.5rem;
+
 }
